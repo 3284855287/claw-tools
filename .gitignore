@@ -1,0 +1,28 @@
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+
+# ---- WorkBuddy 会话与缓存 ----
+.workbuddy/
+
+# ---- 个人产物（不上传）----
+output/
+
+# ---- 编译产物：源码进库，二进制不进 ----
+tools/ocr
+*.o
+*.dSYM/
+build/
+DerivedData/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 凭据 / 环境 ----
+.env
+.env.*
+*.pem
+*.key
